@@ -1,0 +1,55 @@
+* { box-sizing: border-box; }
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif.;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 2rem;
+    border-bottom: 2px solid #333
+}
+
+#intro {
+    font-style: italic;
+    line-height: 1, 6;
+}
+
+.important {
+    color: crimson;
+    font-weight: bold;
+    line-height: 1, 6;
+}
+
+.carte {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    margin: 16px 0;
+    background-color: #fafafa;
+    max-width: 400px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    padding: 0;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    justify-content: center;
+    color: blue;
+    justify-content: center;
+}
+
+.galerie {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px
+    
+}
